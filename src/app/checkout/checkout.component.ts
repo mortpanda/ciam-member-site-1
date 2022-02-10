@@ -58,7 +58,7 @@ export class CheckoutComponent implements OnInit {
   strNewLocality;
   arrNewUserInfo: any = {};
   myUserID;
-  ;
+  
 
   constructor(public CookieService: CookieService, public oktaSDKAuth: OktaSDKAuthService,
     public _snackBar: MatSnackBar, public OktaApiEndpoints: OktaApiEndpoints,
